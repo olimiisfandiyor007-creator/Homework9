@@ -1,0 +1,414 @@
+@for $i from 1 to 1500 {
+    .w-#{$i} {
+        width: #{$i}px;
+    }
+    .h-#{$i} {
+        height: #{$i}px;
+    }
+    .m-#{$i} {
+        margin: #{$i}px;
+    }
+    .m-tb-#{$i} {
+        margin: #{$i}px 0px;
+    }
+    .m-lr-#{$i} {
+        margin: 0px #{$i}px;
+    }
+    .m-l-#{$i} {
+        margin-left: #{$i}px;
+    }
+    .m-r-#{$i} {
+        margin-right: #{$i}px;
+    }
+    .m-t-#{$i} {
+        margin-top: #{$i}px;
+    }
+    .m-b-#{$i} {
+        margin-bottom: #{$i}px;
+    }
+    .p-#{$i} {
+        padding: #{$i}px;
+    }
+    .p-tb-#{$i} {
+        padding: #{$i}px 0px;
+    }
+    .p-lr-#{$i} {
+        padding: 0px #{$i}px;
+    }
+    .p-l-#{$i} {
+        padding-left: #{$i}px;
+    }
+    .p-r-#{$i} {
+        padding-right: #{$i}px;
+    }
+    .p-t-#{$i} {
+        padding-top: #{$i}px;
+    }
+    .p-b-#{$i} {
+        padding-bottom: #{$i}px;
+    }
+    .b-rad-#{$i} {
+        border-radius: #{$i}px;
+    }
+    .b-rad-tb-#{$i} {
+        border-radius: #{$i}px 0px;
+    }
+    .b-rad-lr-#{$i} {
+        border-radius: 0px #{$i}px;
+    }
+    .b-rad-tl-#{$i} {
+        border-top-left-radius: #{$i}px;
+    }
+    .b-rad-tr-#{$i} {
+        border-top-right-radius: #{$i}px;
+    }
+    .b-rad-br-#{$i} {
+        border-bottom-right-radius: #{$i}px;
+    }
+    .b-rad-bl-#{$i} {
+        border-bottom-left-radius: #{$i}px;
+    }
+    .g-#{$i} {
+        gap: #{$i}px;
+    }
+    .pos-t-#{$i} {
+        top: #{$i}px;
+    }
+    .pos-b-#{$i} {
+        bottom: #{$i}px;
+    }
+    .pos-l-#{$i} {
+        left: #{$i}px;
+    }
+    .pos-r-#{$i} {
+        right: #{$i}px;
+    }
+    .font-s-#{$i} {
+        font-size: #{$i}px;
+    }
+}
+
+@for $i from 1 through 9{
+    .font-w-#{$i * 100} {
+        font-weight: #{$i * 100};
+    }
+}
+@for $i from -1500 to 0 {
+    .m-#{$i} {
+        margin: #{$i}px;
+    }
+    .m-tb-#{$i} {
+        margin: #{$i}px 0px;
+    }
+    .m-lr-#{$i} {
+        margin: 0px #{$i}px;
+    }
+    .m-l-#{$i} {
+        margin-left: #{$i}px;
+    }
+    .m-r-#{$i} {
+        margin-right: #{$i}px;
+    }
+    .m-t-#{$i} {
+        margin-top: #{$i}px;
+    }
+    .m-b-#{$i} {
+        margin-bottom: #{$i}px;
+    }
+    .p-#{$i} {
+        padding: #{$i}px;
+    }
+    .p-tb-#{$i} {
+        padding: #{$i}px 0px;
+    }
+    .p-lr-#{$i} {
+        padding: 0px #{$i}px;
+    }
+    .p-l-#{$i} {
+        padding-left: #{$i}px;
+    }
+    .p-r-#{$i} {
+        padding-right: #{$i}px;
+    }
+    .p-t-#{$i} {
+        padding-top: #{$i}px;
+    }
+    .p-b-#{$i} {
+        padding-bottom: #{$i}px;
+    }
+    .g-#{$i} {
+        gap: #{$i}px;
+    }
+    .pos-t-#{$i} {
+        top: #{$i}px;
+    }
+    .pos-b-#{$i} {
+        bottom: #{$i}px;
+    }
+    .pos-l-#{$i} {
+        left: #{$i}px;
+    }
+    .pos-r-#{$i} {
+        right: #{$i}px;
+    }
+}
+
+@for $i from -100 to 100{
+    .z-in-#{$i} {
+        z-index: $i;
+    }
+    .o-#{$i} {
+        order: $i;
+    }   
+}
+
+@for $i from 0 to 101{
+    .w-p-#{$i} {
+        width: #{$i*1%};
+    }
+    .h-p-#{$i} {
+        height: #{$i*1%};
+    }
+    .m-p-#{$i} {
+        margin: #{$i*1%};
+    }
+    .m-tb-p-#{$i} {
+        margin: #{$i*1%} 0%;
+    }   
+    .m-lr-p-#{$i} {
+        margin: 0% #{$i*1%};
+    }
+    .m-l-p-#{$i} {
+        margin-left: #{$i*1%};
+    }
+    .m-r-p-#{$i} {
+        margin-right: #{$i*1%};
+    }
+    .m-t-p-#{$i} {
+        margin-top: #{$i*1%};
+    }
+    .m-b-p-#{$i} {
+        margin-bottom: #{$i*1%};
+    }
+    .b-w-#{$i} {
+        border-width: #{$i}px;
+    }
+}
+
+$colours: AliceBlue, AntiqueWhite, Aqua, Aquamarine, Azure, Beige, Bisque, Black, BlanchedAlmond, Blue, BlueViolet, Brown, BurlyWood, CadetBlue, Chartreuse, Chocolate, Coral, CornflowerBlue, Cornsilk, Crimson, Cyan, DarkBlue, DarkCyan, DarkGoldenRod, DarkGray, DarkGrey, DarkGreen, DarkKhaki, DarkMagenta, DarkOliveGreen, DarkOrange, DarkOrchid, DarkRed, DarkSalmon, DarkSeaGreen, DarkSlateBlue, DarkSlateGray, DarkSlateGrey, DarkTurquoise, DarkViolet, DeepPink, DeepSkyBlue, DimGray, DimGrey, DodgerBlue, FireBrick, FloralWhite, ForestGreen, Fuchsia, Gainsboro, GhostWhite, Gold, GoldenRod, Gray, Grey, Green, GreenYellow, HoneyDew, HotPink, IndianRed, Indigo, Ivory, Khaki, Lavender, LavenderBlush, LawnGreen, LemonChiffon, LightBlue, LightCoral, LightCyan, LightGoldenRodYellow, LightGray, LightGrey, LightGreen, LightPink, LightSalmon, LightSeaGreen, LightSkyBlue, LightSlateGray, LightSlateGrey, LightSteelBlue, LightYellow, Lime, LimeGreen, Linen, Magenta, Maroon, MediumAquaMarine, MediumBlue, MediumOrchid, MediumPurple, MediumSeaGreen, MediumSlateBlue, MediumSpringGreen, MediumTurquoise, MediumVioletRed, MidnightBlue, MintCream, MistyRose, Moccasin, NavajoWhite, Navy, OldLace, Olive, OliveDrab, Orange, OrangeRed, Orchid, PaleGoldenRod, PaleGreen, PaleTurquoise, PaleVioletRed, PapayaWhip, PeachPuff, Peru, Pink, Plum, PowderBlue, Purple, RebeccaPurple, Red, RosyBrown, RoyalBlue, SaddleBrown, Salmon, SandyBrown, SeaGreen, SeaShell, Sienna, Silver, SkyBlue, SlateBlue, SlateGray, SlateGrey, Snow, SpringGreen, SteelBlue, Tan, Teal, Thistle, Tomato, Turquoise, Violet, Wheat, White, WhiteSmoke, Yellow, YellowGreen ;
+@each $i in $colours {
+    .bg-#{$i} {
+        background-color: $i;
+    }
+    .#{$i} {
+        color: $i;
+    }
+}
+
+$justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly, start, end, left, right;
+$align-content: flex-start, flex-end, center, space-between, space-around, space-evenly, stretch, start, end, baseline;
+$align-items: stretch, flex-start, flex-end, center, baseline, start, end;
+$justify-items: start, end, center, stretch;
+$align-self: auto, stretch, flex-start, flex-end, center, baseline, start, end;
+$justify-self: auto, start, end, center, stretch;
+
+$justify-content-map:(
+    f-s: flex-start,
+    f-e: flex-end,
+    s-b: space-between, 
+    s-a: space-around,
+    s-e: space-evenly,
+    center: center,
+    start: start,
+    end: end,
+    right: right,
+    left: left
+);
+@each $name, $value in $justify-content-map {
+    .j-c-#{$name} {
+        justify-content: $value;
+    }
+}
+$align-content-map:(
+    f-s: flex-start,
+    f-e: flex-end,
+    s-b: space-between, 
+    s-a: space-around,
+    s-e: space-evenly,
+    center: center,
+    start: start,
+    end: end,
+    baseline: baseline,
+    stretch: stretch
+);
+@each $name, $value in $align-content-map {
+    .a-c-#{$name} {
+        align-content: $value;
+    }
+}
+$align-items-map:(
+    f-s: flex-start,
+    f-e: flex-end,
+    center: center,
+    start: start,
+    end: end,
+    baseline: baseline,
+    stretch: stretch
+);
+@each $name, $value in $align-items-map {
+    .a-i-#{$name} {
+        align-items: $value;
+    }
+}
+$justify-items-map:(
+    start: start,
+    end: end,
+    center: center,
+    stretch: stretch
+);
+@each $name, $value in $justify-items-map {
+    .j-i-#{$name} {
+        justify-items: $value;
+    }
+}
+$align-self-map:(
+    f-s: flex-start,
+    f-e: flex-end,
+    center: center,
+    start: start,
+    end: end,
+    baseline: baseline,
+    stretch: stretch,
+    auto: auto    
+);
+@each $name, $value in $align-self-map {
+    .a-s-#{$name} {
+        align-self: $value;
+    }
+}
+$justify-self-map:(
+    start: start,
+    end: end,
+    center: center,
+    stretch: stretch,
+    auto: auto    
+);
+@each $name, $value in $justify-self-map {
+    .j-s-#{$name} {
+        justify-self: $value;
+    }
+}
+
+$position: static, relative, absolute, fixed, sticky;
+@each $i in $position {
+    .p-#{$i} {
+        position: $i;
+    }
+}
+$display: block, inline, inline-block, flex, grid, none;
+@each $i in $display {
+    .d-#{$i} {
+        display: $i;
+    }
+}
+$text-align: left, right, center, justify, start, end;
+@each $i in $text-align {
+    .t-a-#{$i} {
+        text-align: $i;
+    }
+}
+
+$text-decoration: none, underline, overline, line-through;
+@each $i in $text-decoration {
+    .t-d-#{$i} {
+        text-decoration: $i;
+    }
+}
+$flex-wrap: nowrap, wrap, wrap-reverse;
+$flex-wrap-map:(
+    nowrap: nowrap,
+    wrap: wrap,
+    wrap-rev: wrap-reverse
+);
+@each $name, $value in $flex-wrap-map {
+    .f-w-#{$name} {
+        flex-wrap: $value;
+    }
+}
+$flex-direction: row, row-reverse, column, column-reverse;
+$flex-direction-map:(
+    col: column,
+    col-rev: column-reverse,
+    row-rev: row-reverse
+);
+@each $name, $value in $flex-direction-map {
+    .f-d-#{$name} {
+        flex-direction: $value;
+    }
+}
+$outline: none, solid, dashed, dotted, double, groove, ridge, inset, outset, hidden;
+@each $i in $outline {
+    .out-#{$i} {
+        outline: $i;
+    }
+}
+$border-style: none, solid, dashed, dotted, double, groove, ridge, inset, outset, hidden;
+@each $i in $border-style {
+    .b-s-#{$i} {
+        border-style: $i;
+    }
+}
+
+
+@for $i from 1 to 12 {
+    .g-t-r-#{$i} {
+        grid-template-rows: repeat($i, 1fr);
+    }
+    .g-t-c-#{$i} {
+        grid-template-columns: repeat($i, 1fr);
+    }
+    .col-start-#{$i}{
+        grid-column-start: $i;
+    }
+    .col-end-#{$i}{
+        grid-column-end: $i;
+    }
+    .row-start-#{$i}{
+        grid-row-start: $i;
+    }
+    .row-end-#{$i}{
+        grid-row-end: $i;
+    }
+}
+@for $i from 1 to 12 {
+    @for $j from 1 to 500 {
+        .g-t-r-#{$i}-#{$j}{
+            grid-template-rows: repeat($i, $j*1px);
+        }
+        .g-t-c-#{$i}-#{$j}{
+            grid-template-columns: repeat($i, $j*1px);
+        }
+    }
+}
+
+
+
+.border{
+    border: 1px solid Grey;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.font-f-1{
+    font-family: sans-serif;
+}
+.box-border{
+    border: 2px solid #515DEF;
+}
+
+
+.bg-515DEF{
+    background-color: #515DEF;
+}
