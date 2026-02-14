@@ -194,6 +194,11 @@
         border-width: #{$i}px;
     }
 }
+@for $i from 1 through 200 {
+    .l-h-p-#{$i} {
+        line-height: #{$i*1%};
+    }
+}
 
 $colours: AliceBlue, AntiqueWhite, Aqua, Aquamarine, Azure, Beige, Bisque, Black, BlanchedAlmond, Blue, BlueViolet, Brown, BurlyWood, CadetBlue, Chartreuse, Chocolate, Coral, CornflowerBlue, Cornsilk, Crimson, Cyan, DarkBlue, DarkCyan, DarkGoldenRod, DarkGray, DarkGrey, DarkGreen, DarkKhaki, DarkMagenta, DarkOliveGreen, DarkOrange, DarkOrchid, DarkRed, DarkSalmon, DarkSeaGreen, DarkSlateBlue, DarkSlateGray, DarkSlateGrey, DarkTurquoise, DarkViolet, DeepPink, DeepSkyBlue, DimGray, DimGrey, DodgerBlue, FireBrick, FloralWhite, ForestGreen, Fuchsia, Gainsboro, GhostWhite, Gold, GoldenRod, Gray, Grey, Green, GreenYellow, HoneyDew, HotPink, IndianRed, Indigo, Ivory, Khaki, Lavender, LavenderBlush, LawnGreen, LemonChiffon, LightBlue, LightCoral, LightCyan, LightGoldenRodYellow, LightGray, LightGrey, LightGreen, LightPink, LightSalmon, LightSeaGreen, LightSkyBlue, LightSlateGray, LightSlateGrey, LightSteelBlue, LightYellow, Lime, LimeGreen, Linen, Magenta, Maroon, MediumAquaMarine, MediumBlue, MediumOrchid, MediumPurple, MediumSeaGreen, MediumSlateBlue, MediumSpringGreen, MediumTurquoise, MediumVioletRed, MidnightBlue, MintCream, MistyRose, Moccasin, NavajoWhite, Navy, OldLace, Olive, OliveDrab, Orange, OrangeRed, Orchid, PaleGoldenRod, PaleGreen, PaleTurquoise, PaleVioletRed, PapayaWhip, PeachPuff, Peru, Pink, Plum, PowderBlue, Purple, RebeccaPurple, Red, RosyBrown, RoyalBlue, SaddleBrown, Salmon, SandyBrown, SeaGreen, SeaShell, Sienna, Silver, SkyBlue, SlateBlue, SlateGray, SlateGrey, Snow, SpringGreen, SteelBlue, Tan, Teal, Thistle, Tomato, Turquoise, Violet, Wheat, White, WhiteSmoke, Yellow, YellowGreen ;
 @each $i in $colours {
@@ -418,16 +423,37 @@ $border-style: none, solid, dashed, dotted, double, groove, ridge, inset, outset
 .bg-3B9254{
     background-color: #3B9254;
 }
+.bg-429058{
+    background-color: #429058;
+}
+.c-2A7941{
+    color: #2A7941;
+}
+.bg-EAF5ED{
+    background-color: #EAF5ED;
+}
+.bg-2A7941{
+    background-color: #2A7941;
+}
+.bg-F6F6F6{
+    background-color: #F6F6F6;
+}
+.c-515753{
+    color: #515753;
+}
+.bg-F8F8F8{
+    background-color: #F8F8F8;
+}
+.c-F3EFE8{
+    color: #F3EFE8;
+}
 .b-none{
     border: none;
 }
 
-$bg-image-map: (
-    image-1: "./img.png",
-    image-2: "./img.png",
-);
-@each $name, $value in $bg-image-map{
-    .#{$name}{
-        background-image: url($value);
-    }
+.bg-img{
+    background-image: url(./95ec454fe06cf4fd80fe22463ebe2ce121057975.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
