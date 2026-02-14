@@ -412,3 +412,22 @@ $border-style: none, solid, dashed, dotted, double, groove, ridge, inset, outset
 .bg-515DEF{
     background-color: #515DEF;
 }
+.c-1A3A27{
+    color: #1A3A27;
+}
+.bg-3B9254{
+    background-color: #3B9254;
+}
+.b-none{
+    border: none;
+}
+
+$bg-image-map: (
+    image-1: "./img.png",
+    image-2: "./img.png",
+);
+@each $name, $value in $bg-image-map{
+    .#{$name}{
+        background-image: url($value);
+    }
+}
